@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+svg {
+  display: none;
+}
+p {
+ position: absolute;
+ opacity: 0;
+/* display: none;*/
+}
