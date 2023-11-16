@@ -12,7 +12,7 @@ let font;
 function preload() {
 	//img_prew = loadImage("2024_prew.png");
   img = loadImage("1080x1920.png");
-  font = loadFont("fonts/LemonTuesday.ttf");
+  font = loadFont("fonts/TOMO Zomba Pro Regular.otf");
 }
 
 function setup() {
@@ -53,7 +53,7 @@ function draw() {
   noFill();
   stroke(249, 236, 220, 210);
   //stroke(255, 0, 0);
-  strokeWeight(5);
+  strokeWeight(7);
 
  // let m = {x: mouseX, y: mouseY};
   //if (pointInPoly(vtx, m)) {
@@ -76,11 +76,13 @@ function draw() {
 	}
 
   textFont(font);
-  textSize(50);
+  textSize(110);
+  textLeading(95);
+  //fill(168, 0, 0);
   fill(0);
   push()
-  translate(140, 640);
-  rotate(-12.8);
+  translate(600, 500);
+  //rotate(-12.8);
   text(NYt, 0, 0);
   pop();
 }
