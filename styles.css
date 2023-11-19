@@ -13,3 +13,15 @@ p {
  opacity: 0;
 /* display: none;*/
 }
+
+iframe#if {
+  position: absolute;
+  top: -3.2rem; 
+}
+
+/*nav {
+  display: none;
+}
+.nav preview-nav {
+  display: none;
+}*/
